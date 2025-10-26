@@ -9,3 +9,5 @@ int main() {
     cout << a%10 + b%10; 
     return 0;
 }
+
+//Somehow not submitting in codeforfces, but works perfectly in local IDE.
