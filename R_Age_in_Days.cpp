@@ -28,21 +28,17 @@ const int INFM = 1e9;         // A large value (infinity) for int
  * @brief Solves a single test case.
  */
 void solve() {
-    double x;
-    cin >> x;
-    if(0<=x && x<=25){
-        cout << "Interval [0,25]\n";
-    }else if(25<x && x<=50){
-        cout << "Interval (25,50]\n";
-    }else if(50<x && x<=75){
-        cout << "Interval (50,75]\n";
-    }else if(75<x && x<=100){
-        cout << "Interval (75,100]\n";
-    }else{
-        cout << "Out of Intervals\n";
-    }
+    ll a;
+    cin >> a;
+    ll yr = a / 365;
+    ll mn = (a % 365) / 30;
+    ll d = (a % 365) % 30;
+    cout << yr << " years" << endl;
+    cout << mn << " months" << endl;    
+    cout << d << " days" << endl;
 
 }
+
 /**
  * @brief Main function: Sets up I/O and handles test cases.
  */

@@ -28,24 +28,18 @@ const int INFM = 1e9;         // A large value (infinity) for int
  * @brief Solves a single test case.
  */
 void solve() {
-    double x;
-    cin >> x;
-    if(0<=x && x<=25){
-        cout << "Interval [0,25]\n";
-    }else if(25<x && x<=50){
-        cout << "Interval (25,50]\n";
-    }else if(50<x && x<=75){
-        cout << "Interval (50,75]\n";
-    }else if(75<x && x<=100){
-        cout << "Interval (75,100]\n";
-    }else{
-        cout << "Out of Intervals\n";
-    }
+    int a,b;
+    cin >> a >> b;
+    for (int i = 0; i < a; ++i) {
+        int left = 0, right =0
 
+        
+    }
 }
-/**
- * @brief Main function: Sets up I/O and handles test cases.
- */
+
+ /**
+  * @brief Main function: Sets up I/O and handles test cases.
+  */
 int main() {
     // --- Fast I/O Setup ---
     // Disables C-style I/O synchronization
